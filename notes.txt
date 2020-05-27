@@ -1,0 +1,27 @@
+Firstly: Create DB steps 
+ step 1: ruby generate migration create_articles
+ step 2: rails generate scaffold Article title:string description:text
+
+Secondly: Push Migration
+step 1: gem install pg 
+step 2: pqsl
+step 3: CREATE DATABASE articleapi;
+step 4: rails db:migrate RAILS_ENV=development
+
+CREATE Proejct
+rails new projectName
+rails generate scaffold Shark name:string facts:text
+with Postgres DB 
+rails new rubyapi --api --database=postgresql
+rails new appname -d=postgresql
+
+make ruby api with postgresql
+rails new rubyapi --api --database=postgresql
+
+start at port 4000
+rails s -p 4000
+
+To start the rails console, type in rails console  or rails c from the terminal.
+Activate Ruby Console 
+rails console || rails c 
+
