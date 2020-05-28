@@ -25,3 +25,38 @@ To start the rails console, type in rails console  or rails c from the terminal.
 Activate Ruby Console 
 rails console || rails c 
 
+ rails g scaffold User username:string
+ rails g migration add_user_id_to_articles
+
+ git checkout -b create-users-table-model
+ rails g migration create_users
+ rails db:migrate
+
+
+ how can you be self accepting without bcm complacent 
+ how can you be high achieving without self abusing 
+
+ what im grateful for 
+ what made today great 
+
+ excellence and beauty in all things 
+
+
+CRUD
+CREATE 
+User.create(username: "dabel", email: "dabel@gmail.com")
+
+UPDATE
+user = User.first 
+user 
+user.email = "daniel@gmail.com"
+user.save 
+
+DELETE
+user = User.first 
+user.destroy
+
+validity check 
+user.valid?
+user.errors.full_messages
+
