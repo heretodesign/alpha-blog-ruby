@@ -1,6 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Articles</h1>
+<p>by <%= article.user.username if article.user %></p>
+# by <%= article.user.username if article.user %>
+
 
 <table>
   <thead>
