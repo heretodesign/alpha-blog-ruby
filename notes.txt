@@ -60,3 +60,19 @@ validity check
 user.valid?
 user.errors.full_messages
 
+Regex for email Add
+/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
+============================  1-Many Associations ==========================
+rails g migration add_user_id_to_articles
+
+user.articles << article
+
+BRAVING
+boundaries
+realibility
+accountability
+vault || the other side of confidentiality..let me tell you whats going on about sm1 else 
+integrity: practicing your values
+non-judgement
+generosity 
