@@ -67,12 +67,16 @@ Regex for email Add
 rails g migration add_user_id_to_articles
 
 user.articles << article
+rails g migration add_password_digest_to_users
 
 BRAVING
-boundaries
-realibility
-accountability
-vault || the other side of confidentiality..let me tell you whats going on about sm1 else 
-integrity: practicing your values
-non-judgement
-generosity 
+Boundaries: you know what is acceptable and what is not 
+Realibility: you do what you say and say what you do 
+Accountability: you hold people accountable in a good way 
+Vault || the other side of confidentiality..let me tell you whats going on about sm1 else 
+Integrity: practicing your values, choosing courage over comfort, choosing whats right over fun & easy 
+Non-judgement: benefit of a doubt, assume the best before launching into anger 
+Generosity:  
+
+my values are at display the most when I disagree with a person. I exhibit value though I disagree.
+
